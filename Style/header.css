@@ -1,0 +1,56 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem
+}
+header img {
+    height: 2.5rem;
+}
+nav {
+    align-self: center;
+
+}
+nav ul {
+    display: flex;
+}
+nav ul i {
+    font-size: 2rem;
+    color: #63BCB7;
+}
+nav ul a {
+    display: none;
+}
+
+
+@media (min-width: 768px) {
+    header {
+        padding: 2rem
+    }
+    header img {
+        height: 3rem;
+    }
+    nav ul {
+        gap: 1rem;
+    }
+    nav ul i {
+        display: none;
+    }
+    nav ul a {
+        display: inline;
+        font-size: 1.3rem;
+        color: #63BCB7;
+        font-weight: 500;
+    }
+}
+
+@media (min-width: 1440px) {
+    header {
+        padding: 2.5rem
+    }
+    header img {
+        height: 3.5rem;
+    }
+    nav ul a {
+        font-size: 1.4rem;
+    }
+}

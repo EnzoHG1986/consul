@@ -1,0 +1,37 @@
+.tratamientos {
+}
+.tratamientos h2 {
+    text-align: center;
+    padding: 1rem 0;
+}
+.container_tratamiento {
+    width: 90vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding-bottom: 1rem;
+    gap: 1rem
+}
+.tratamiento {
+    width: 40vw;
+    border-radius: 10px 0 10px 0;
+}
+.tratamiento img {
+    width: 100%;
+    border-radius: 10px 0 0 0;
+}
+.tratamiento h3 {
+    text-align: center;
+}
+.tratamiento p {
+    display: none;
+}
+@media (min-width: 768px) {
+
+}
+@media (min-width: 1440px) {
+    .tratamiento {
+        width: 25vw;
+    }
+}

@@ -5,6 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./Style/style.css">
+    <link rel="stylesheet" href="./Style/header.css">
+    <link rel="stylesheet" href="./Style/hero.css">
+    <link rel="stylesheet" href="./Style/tratamientos.css">
+    <link rel="stylesheet" href="./Style/profesionales.css">
+    <link rel="stylesheet" href="./Style/contactos.css">
     <link rel="shortcut icon" href="./Img/muela.png">
     <title>Clinica Dental Lauriola</title>
 </head>
@@ -13,14 +18,14 @@
 <!--        MENU         -->
 
     <header  id="inicio">
-        <nav class="menu">
-            <img src="./Img/Logo.png" alt="Clinica Dental Lauriola">
+        <img src="./Img/Logo2.png" alt="Clinica Dental Lauriola">
+        <nav>
             <ul>
-                <li><a href="#inicio">Inicio</a></li>
-                <li><a href="#tratamientos">Tratamientos</a></li>
-                <li><a href="#profesionales">Profesionales</a></li>
-                <li><a href="#contacto">Contactos</a></li>
-                <img class="menu_img_muela" src="./Img/Muela.png" alt="menu">
+                <i class="bi bi-list"></i>
+                <a href="#inicio">Inicio</a>
+                <a href="#tratamientos">Tratamientos</a>
+                <a href="#profesionales">Profesionales</a>
+                <a href="#contacto">Contactos</a>
             </ul>
         </nav>
     </header>
@@ -42,56 +47,39 @@
 <!--        TRATAMIENTOS         -->
 
     <div class="tratamientos" id="tratamientos">
-
         <h2>Tratamientos</h2>
-
-        <div class="container_tratamientos">
-
-            <div class="imagen">
+        <div class="container_tratamiento">
+            <div class="tratamiento">
                 <img src="./Img/Tratamiento-01.jpg" alt="">
                 <h3>Tratamiento</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, ipsa!</p>
             </div>
-            <div class="imagen">
+            <div class="tratamiento">
                 <img src="./Img/Tratamiento-02.jpg" alt="">
                 <h3>Tratamiento</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, ipsa!</p>
             </div>
-            <div class="imagen">
+            <div class="tratamiento">
                 <img src="./Img/Tratamiento-03.jpg" alt="">
                 <h3>Tratamiento</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, ipsa!</p>
             </div>
-            <div class="imagen">
+            <div class="tratamiento">
                 <img src="./Img/Tratamiento-04.jpg" alt="">
                 <h3>Tratamiento</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, ipsa!</p>
             </div>
-            <div class="imagen">
+            <div class="tratamiento">
                 <img src="./Img/Tratamiento-05.jpg" alt="">
                 <h3>Tratamiento</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, ipsa!</p>
             </div>
-            <div class="imagen">
+            <div class="tratamiento">
                 <img src="./Img/Tratamiento-06.jpg" alt="">
                 <h3>Tratamiento</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, ipsa!</p>
             </div>
-            <div class="imagen">
-                <img src="./Img/Tratamiento-07.jpg" alt="">
-                <h3>Tratamiento</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, ipsa!</p>
-            </div>
-            <div class="imagen">
-                <img src="./Img/Tratamiento-08.jpg" alt="">
-                <h3>Tratamiento</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, ipsa!</p>
-            </div>
-            
-
-
         </div>
-
     </div>
 
 
@@ -180,23 +168,28 @@
 
     <section class="contacto" id="contacto">
         <div class="container_contacto">
+<!-- 
             <div class="contacto_redes">
                 <i class="bi bi-instagram"></i>
                 <i class="bi bi-facebook"></i>
                 <i class="bi bi-linkedin"></i>
-
             </div>
+-->
             <div class="contacto_mail">
                 <h3>Mensaje</h3>
                 <form action="" class="form-contacto">
+                    <label>Nombre</label>
                     <input type="text" placeholder="Ingrese su nombre" required>
+                    <label>Email</label>
                     <input type="email" name="" id="" placeholder="Ingrese su Email" required>
+                    <label for="">Sede</label>
+                    <select>
+                        <option>Belgrano</option>
+                        <option>Bernal</option>
+                    </select>
                     <textarea name="" id="" cols="30" rows="10" placeholder="Ingrese su mensaje"></textarea>
-                    <input type="submit" value="Enviar" class="btn-enviar">
+                    <button type="submit">Enviar</button>
                 </form>
-            </div>
-            <div class="contacto_map">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52571.914489422306!2d-58.492694137472675!3d-34.56001999462897!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb5d2ee3faa15%3A0x3ae1222d1854b871!2sOdontolog%C3%ADa%20Lauriola%20Lucia%20L!5e0!3m2!1ses-419!2sar!4v1683401650040!5m2!1ses-419!2sar" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </div>
     </section>

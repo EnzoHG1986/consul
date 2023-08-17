@@ -1,0 +1,74 @@
+
+.prof-descrip {
+    text-align: center;
+
+}
+.container_profesionales {
+
+    display: flex;
+    /* Responsive behaviour */
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 16px;
+}
+
+.card {
+    position: relative;
+    width: 300px;
+    border-radius: 8px;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.15);
+    padding: 16px;
+    margin: 56px 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(253, 122, 90)
+}
+.card-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 15px 35px -15px rgba(0, 0, 0, 0.5);
+}
+.card-image img {
+    width: 100%;
+    transform: scale(1.2);
+}
+p {
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    margin-bottom: 12px;
+    text-align: center;
+}
+.name {
+    margin-top: 80px;
+    font-size: 1.4em;
+    font-weight: bold;
+    letter-spacing: 0.8px;
+    margin-bottom: 8px;
+}
+.redes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* button {
+    margin: 12px 8px;
+    width: 44px;
+    height: 44px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: opacity 0.4s;
+} */
+.redes i {
+    font-size: 1.5rem;
+
+}

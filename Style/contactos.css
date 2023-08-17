@@ -1,0 +1,134 @@
+.contacto {
+
+}
+.container_contacto {
+
+}
+.contacto_mail {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(0, 255, 200, 0.2);
+}
+.contacto_mail h3 {
+    text-align: center;
+}
+.form-contacto {
+    width: 85vw;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+.form-contacto label {
+    background-color: white;
+    padding-top: 0.5rem;
+    font-weight: 300;
+}
+.form-contacto input {
+    border: none;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+
+}
+.form-contacto select {
+    border: none;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+}
+.form-contacto textarea {
+    font-size: 1.1rem;
+    border: none;
+    padding: 0.5rem;
+}
+.form-contacto button {
+    width: 100px;
+    height: 30px;
+    font-size: 1rem;
+    background-color: rgb(85, 221, 176);
+    border: none;
+    margin-top: 1rem;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+.contacto {
+    height: 70vh;
+    display: flex;
+    flex-direction: row;
+}
+.container_contacto {
+    margin: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contacto_redes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(247, 183, 112);
+    height: 300px;
+}
+.contacto_redes i {
+    font-size: 25px;
+}
+.bi-instagram {
+    color:  radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+}
+.bi-facebook {
+    color: #2372a3;
+}
+.bi-linkedin {
+    color:#0e76a8;
+}
+.contacto_mail {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(101, 183, 179);
+    height: 500px;
+    padding: 30px;
+}
+.contacto_mail h3 {
+    font-size: 1.5rem;
+}
+.contacto_mail form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between
+}
+.contacto_map {
+    height: 300px;
+    width: 400px;
+}
+.contacto_map iframe {
+    height: 100%;
+    width: 100%;
+}
+ */

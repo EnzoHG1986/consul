@@ -1,55 +1,97 @@
 .contacto {
-
+    background-color: rgba(0, 255, 200, 0.2);
+}
+.contacto h3 {
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 1rem 0;
 }
 .container_contacto {
 
 }
 .contacto_mail {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background-color: rgba(0, 255, 200, 0.2);
-}
-.contacto_mail h3 {
-    text-align: center;
-}
-.form-contacto {
-    width: 85vw;
+    width: 80vw;
     display: flex;
     flex-direction: column;
     margin: 0 auto;
 }
-.form-contacto label {
+.form-contacto {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.containerForm {
+width: 100%;
+}
+.sectionDatos {
+    display: flex;
+    flex-direction: column;
+}
+.sectionDatos label {
     background-color: white;
     padding-top: 0.5rem;
     font-weight: 300;
 }
-.form-contacto input {
-    border: none;
-    font-size: 1.2rem;
-    margin-bottom: 1rem;
-    padding: 0.5rem;
-
-}
-.form-contacto select {
+.sectionDatos  input {
     border: none;
     font-size: 1.2rem;
     margin-bottom: 1rem;
     padding: 0.5rem;
 }
-.form-contacto textarea {
+.sectionDatos select {
+    border: none;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+}
+.sectionText {
+    width: 100%;
+}
+.sectionText textarea {
+    width: 100%;
     font-size: 1.1rem;
     border: none;
     padding: 0.5rem;
 }
-.form-contacto button {
+.containerBtn {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+.containerBtn button{
     width: 100px;
     height: 30px;
     font-size: 1rem;
     background-color: rgb(85, 221, 176);
     border: none;
     margin-top: 1rem;
-    
+}
+
+@media (min-width: 768px) {
+    .contacto_mail button {
+        justify-content: center;
+    }
+    .containerBtn {
+        justify-content: center;
+    }
+    .containerBtn button{
+        width: 150px;
+        height: 45px;
+        font-size: 1.5rem;
+    }
+}
+@media (min-width: 1440px) {
+    .contacto_mail {
+width: 60vw;
+    }
+    .form-contacto {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+    .sectionDatos {
+    width: 100%
+    }
 }
 
 

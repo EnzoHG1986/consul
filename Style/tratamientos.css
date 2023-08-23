@@ -1,4 +1,6 @@
 .tratamientos {
+    background-color: #ffc369;
+
 }
 .tratamientos h2 {
     text-align: center;
@@ -11,24 +13,25 @@
     justify-content: space-between;
     margin: 0 auto;
     padding-bottom: 1rem;
-    gap: 1rem
+    gap: 1rem;
 }
 .tratamiento {
     width: 40vw;
-    border-radius: 10px 0 10px 0;
+    border-radius: 50px 0 50px 0;
 }
 .tratamiento img {
     width: 100%;
-    border-radius: 10px 0 0 0;
+    border-radius: 50px 0 50px 0;
 }
 .tratamiento h3 {
     text-align: center;
+    font-size: 1rem;
 }
 .tratamiento p {
     display: none;
 }
 @media (min-width: 768px) {
-
+    
 }
 @media (min-width: 1440px) {
     .tratamiento {

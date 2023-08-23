@@ -20,14 +20,25 @@
 
     <header  id="inicio">
         <img src="./Img/Logo2.png" alt="Clinica Dental Lauriola">
-        <nav>
-            <ul>
-                <i class="bi bi-list"></i>
-                <a href="#inicio">Inicio</a>
-                <a href="#tratamientos">Tratamientos</a>
-                <a href="#profesionales">Profesionales</a>
-                <a href="#contacto">Contactos</a>
+        <nav class="nav">
+            <div class="icoMenu" id="btnMenu">
+                <i class="bi bi-list icoMenu"></i>
+            </div>
+            <ul class="menu" id="menu">
+                <li class="menuList">
+                    <a href="#" class="menuLink">Inicio</a>
+                </li>
+                <li class="menuList">
+                    <a href="#" class="menuLink">Tratamientos</a>
+                </li>
+                <li class="menuList">
+                    <a href="#" class="menuLink">Profesionales</a>
+                </li>
+                <li class="menuList">
+                    <a href="#" class="menuLink">Contacto</a>
+                </li>
             </ul>
+
         </nav>
     </header>
 
@@ -100,64 +111,43 @@
                         </div>
                         <p class="name">Dante XXXXXX</p>
                         <p>Odontologo</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum harum quidem exercitationem blanditiis cum, velit aspernatur.</p>
-                        <div class="redes">
-                            <!-- <button class="Linkedin"><i class="bi bi-linkedin"></i></button> -->
-                            <i class="bi bi-linkedin"></i>
-                        </div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                     </div>
-        
+
                     <div class="card" id="contato2">
                         <div class="card-image">
                             <img src="./Img/Lucia.jpg" alt="Imagen del Profesional">
                         </div>
                         <p class="name">Lucia XXXXXX</p>
                         <p>Odontologo</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum harum quidem exercitationem blanditiis cum, velit aspernatur.</p>
-                        <div class="redes">
-                            <!-- <button class="Linkedin"><i class="bi bi-linkedin"></i></button> -->
-                            <i class="bi bi-linkedin"></i>
-                        </div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                     </div>
-        
+
                     <div class="card" id="contato3">
                         <div class="card-image">
                             <img src="./Img/Martin.jpg" alt="Imagen del Profesional">
                         </div>
                         <p class="name">Martin XXXXXX</p>
                         <p>Odontologo</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum harum quidem exercitationem blanditiis cum, velit aspernatur.</p>
-                        <div class="redes">
-                            <!-- <button class="Linkedin"><i class="bi bi-linkedin"></i></button> -->
-                            <i class="bi bi-linkedin"></i>
-                        </div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                     </div>
-        
+
                     <div class="card" id="contato4">
                         <div class="card-image">
                             <img src="./Img/Lucia2.jpg" alt="Imagen del Profesional">
                         </div>
                         <p class="name">Lucia 2</p>
                         <p>Odontologo</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum harum quidem exercitationem blanditiis cum, velit aspernatur.</p>
-                        <div class="redes">
-                            <!-- <button class="Linkedin"><i class="bi bi-linkedin"></i></button> -->
-                            <i class="bi bi-linkedin"></i>
-                        </div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                     </div>
-        
+
                     <div class="card" id="contato5">
                         <div class="card-image">
                             <img src="./Img/Candela.jpg" alt="Imagen del Profesional">
                         </div>
                         <p class="name">Candela xxxxxx</p>
                         <p>Odontologo</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum harum quidem exercitationem blanditiis cum, velit aspernatur.</p>
-                        <div class="redes">
-                            <!-- <button class="Linkedin"><i class="bi bi-linkedin"></i></button> -->
-                            <i class="bi bi-linkedin"></i>
-                        </div>
-        
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                     </div>
                 </div>
                 <div class="sliderNav">
@@ -181,36 +171,35 @@
     <section class="contacto" id="contacto">
         <h3>Mensaje</h3>
         <div class="container_contacto">
-<!-- 
-        <div class="contacto_redes">
-            <i class="bi bi-instagram"></i>
-            <i class="bi bi-facebook"></i>
-            <i class="bi bi-linkedin"></i>
-        </div>
--->
-        <div class="contacto_mail">
-            <form action="" class="form-contacto">
-                <div class="containerForm">
-                    <div class="sectionDatos">
-                        <label>Nombre</label>
-                        <input type="text" placeholder="Ingrese su nombre" required>
-                        <label>Email</label>
-                        <input type="email" name="" id="" placeholder="Ingrese su Email" required>
-                        <label for="">Sede</label>
-                        <select>
-                            <option>Belgrano</option>
-                            <option>Bernal</option>
-                        </select>
+            <div class="contacto_mail">
+                <form action="" class="form-contacto">
+                    <div class="containerForm">
+                        <div class="sectionDatos">
+                            <label>Nombre</label>
+                            <input type="text" placeholder="Ingrese su nombre" required>
+                            <label>Email</label>
+                            <input type="email" name="" id="" placeholder="Ingrese su Email" required>
+                            <label for="">Sede</label>
+                            <select>
+                                <option>Belgrano</option>
+                                <option>Bernal</option>
+                            </select>
+                        </div>
                     </div>
+                    <div class="sectionText">
+                        <textarea name="" id="" cols="30" rows="10" placeholder="Ingrese su mensaje"></textarea>
+                    </div>
+                </form>
+                <div class="containerBtn">
+                    <button type="submit">Enviar</button>
                 </div>
-                <div class="sectionText">
-                    <textarea name="" id="" cols="30" rows="10" placeholder="Ingrese su mensaje"></textarea>
-                </div>
-            </form>
-            <div class="containerBtn">
-                <button type="submit">Enviar</button>
             </div>
-        </div>
+                
+            <div class="contacto_redes">
+                <i class="bi bi-instagram"></i>
+                <i class="bi bi-facebook"></i>
+                <i class="bi bi-linkedin"></i>
+            </div>
         </div>
     </section>
 
@@ -219,6 +208,6 @@
     </a>
 
 <!--        FOOTER       -->
-
+<script src="./js/scriipts.js"></script>
 </body>
 </html>
